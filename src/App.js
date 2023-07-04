@@ -1,11 +1,17 @@
-import './App.css';
+import "./App.css"
 
-import Sidebar from './Sidebar';
+import GameGrid from "./GameGrid"
+import Sidebar from "./Sidebar"
 
 function App() {
-  return (
-    <Sidebar/>
-  );
+    return (
+        <>
+            <Sidebar />
+            <div className="container ps-20 py-4">
+                <GameGrid />
+            </div>
+        </>
+    )
 }
 
-export default App;
+export default App
